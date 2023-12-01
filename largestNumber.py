@@ -1,15 +1,15 @@
 
 
-sayi1 = int(input("1. Sayı"))
-sayi2 = int(input("2. Sayı"))
-sayi3 = int(input("3. Sayı"))
+number1 = int(input("First Number:"))
+number2 = int(input("Second Number:"))
+number3 = int(input("Third Number:"))
 
-if (sayi1>=sayi2) and (sayi1>=sayi3):
-    enBuyuk = sayi1
-elif (sayi2>=sayi1) and (sayi2>=sayi3):
-    enBuyuk = sayi2
+if (number1>=number2) and (number1>=number3):
+    max = number1
+elif (number2>=number1) and (number2>=number3):
+    max = number2
 else:
-    enBuyuk = sayi3
+    max = number3
     
-print("En Büyük:", enBuyuk)
+print("Largest Number:",max)
 
