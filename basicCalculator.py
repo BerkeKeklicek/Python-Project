@@ -1,37 +1,37 @@
-def topla(sayi1,sayi2):
-    return sayi1 + sayi2
+def add(number1,number2):
+    return number1 + number2
 
-def cikar(sayi1,sayi2):
-    return sayi1 - sayi2
+def subtract(number1,number2):
+    return number1 - number2
 
-def carp(sayi1,sayi2):
-    return sayi1 * sayi2
+def multiply(number1,number2):
+    return number1 * number2
 
-def bol(sayi1,sayi2):
-    return sayi1 / sayi2
+def divide(number1,number2):
+    return number1 / number2
     
     
-print("Operasyon:")
-print("1 : Topla")
-print("2 : Çıkar")
-print("3 : Çarp")
-print("4 : Böl")
+print("Options:")
+print("1 : Addition")
+print("2 : Subtraction")
+print("3 : Multiplication")
+print("4 : Division")
 
-secenek = input("Operasyon seçiminiz?")
+choice = input("Your choice?")
 
-sayi1 = int(input("Birinci sayı?"))
-sayi2 = int(input("İkinci sayı?"))
+number1 = int(input("First number?"))
+number2 = int(input("Second number?"))
 
-if secenek == "1":
-    print("Toplam : " +str(topla(sayi1,sayi2)))    
-elif secenek == "2":
-    print("Çıkarma : " +str(cikar(sayi1,sayi2)))
-elif secenek == "3":
-    print("Çarpma : " +str(carp(sayi1,sayi2)))
-elif secenek == "4":
-    print("Bölme : " +str(bol(sayi1,sayi2)))        
+if choice == "1":
+    print("Result : " +str(add(number1,number2)))    
+elif choice == "2":
+    print("Result : " +str(subtract(number1,number2)))
+elif choice == "3":
+    print("Result : " +str(multiply(number1,number2)))
+elif choice == "4":
+    print("Result : " +str(divide(number1,number2)))        
 else:
-    print("Geçersiz seçenek")
+    print("Invalid Number!")
 
     
     
