@@ -1,17 +1,17 @@
 
 
-sayi = int(input("Sayı : "))
+number = int(input("Number : "))
 
-faktoriyel = 1
+factorial = 1
 
-if sayi<0:
-    print("Negatif sayıların faktöreyeli hesaplanamaz!")
+if number<0:
+    print("The factorial of negative numbers cannot be calculated!")
     
-elif sayi==0:
-    print("Sonuç : 1")
+elif number==0:
+    print("Result : 1")
     
 else:
-    for i in range(1,sayi+1):
-        faktoriyel = faktoriyel * i
-    print("Sonuç : ",faktoriyel)
+    for i in range(1,number+1):
+        factorial = factorial * i
+    print("Result : ",factorial)
     
