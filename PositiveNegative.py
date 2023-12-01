@@ -1,10 +1,10 @@
 
 
-sayi = int(input("Sayı giriniz."))
+number = int(input("Enter number."))
 
-if sayi>0:
-    print("Pozitif")
-elif sayi==0:
-    print("Sıfır")
+if number>0:
+    print("Pozitive")
+elif number==0:
+    print("none")
 else:
-    print("Negatif")
+    print("Negative")
