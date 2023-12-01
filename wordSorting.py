@@ -1,11 +1,11 @@
 
-cumle = "Bugün hava çok güzel"
+sentence = "The weather is very nice today"
 
-kelimeler = cumle.split()
+words = sentence.split()
 
-kelimeler.sort()
+words.sort()
 
-print(kelimeler)
+print(words)
 
-for kelime in kelimeler:
-    print(kelime)
+for word in words:
+    print(word)
