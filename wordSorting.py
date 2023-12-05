@@ -1,5 +1,5 @@
 
-sentence = "The weather is very nice today"
+sentence = "The weather is very nice today."
 
 words = sentence.split()
 
